@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  # Dashboard Application
+  driver-pulse:
+    build:
+      context: .
+      target: production
+    ports:
+      - "8501:8501"  # Streamlit Dashboard
+    volumes:
+      - ./data:/app/data
+      - ./outputs:/app/outputs
+    environment:
+      - PYTHONUNBUFFERED=1
+      - ENVIRONMENT=production
+      - DEBUG=false
+    restart: unless-stopped
+    command: streamlit run dashboard/app.py --server.port=8501 --server.address=0.0.0.0
