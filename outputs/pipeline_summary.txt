@@ -1,0 +1,32 @@
+DRIVER PULSE PIPELINE SUMMARY REPORT
+==================================================
+Generated at: 2026-03-10 22:31:25.381201
+
+EVENT DETECTION SUMMARY
+-------------------------
+Total events detected: 2313
+Events by type: {'HARSH_BUMP': 2310, 'SUSTAINED_HIGH_NOISE': 2, 'DRIVER_STRESS_EVENT': 1}
+Events by severity: {'medium': 2313}
+Average confidence: 1.00
+
+TRIP ANALYSIS SUMMARY
+-----------------------
+Total trips: 200
+Total earnings: $5713.81
+Average trip duration: 61.3 minutes
+Average stress score: 0.53
+Safety rating distribution: {'POOR': 186, 'FAIR': 14}
+
+GOAL PREDICTION SUMMARY
+-------------------------
+Drivers with goals: 10
+Goal status distribution: {'GOAL_ALREADY_ACHIEVED': 10}
+Average goal progress: 100.0%
+Average achievement probability: 1.00
+
+EARNINGS VELOCITY SUMMARY
+----------------------------
+Drivers analyzed: 10
+Average earnings/hour: $26.59
+Average velocity consistency: 0.52
+Total hours worked: 1462.0
