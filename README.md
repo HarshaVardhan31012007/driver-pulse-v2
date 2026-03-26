@@ -170,7 +170,7 @@ python main.py --generate-sample-data
 streamlit run dashboard/app.py
 ```
 
-Open **https://driver-pulse-elzbvw7ncv332mb2derpck.streamlit.app/** in your browser.
+Open **(https://driver-pulse-v2-e5essavxbqelgekfganlz7.streamlit.app/)** in your browser.
 
 Open **(https://drive.google.com/drive/folders/1NIYazECukZMqjO-8QS9K80x17qUowTIL?usp=drive_link)**  Demo Video
 
